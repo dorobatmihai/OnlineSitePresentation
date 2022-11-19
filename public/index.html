@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="images/favicon.webp">
+  <title>GymBeam Home</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/b13a0fbc73.js" crossorigin="anonymous"></script>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="fonts/fonts.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+</head>
+
+<body>
+  <!-- Scroll up button -->
+  <div class="arrow-btn">
+    <a href="#"><span class="fas fa-angle-up"></span></a>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <!-- Announcement Section -->
+    <section class="announcement">
+      <div class="container">
+        <div class="col-md-4 col-xs-12 announcement">
+          <p class="hide-on-mobile">Email: <span>info@gymbeam.ro</span></p>
+          <p>Call GB Today: <span>0040 316 302 838</span></p>
+          <p class="hide-on-mobile">Emergency? Call: <span>07968 788 009</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navbar Section -->
+    <section class="navbar">
+      <div class="container header-container">
+        <div class="logo-link">
+          <a href="index.html">
+            <img src="images/logo.webp" class="logo" alt="GymBeam logo">
+          </a>
+        </div>
+        <button class="mobile-menu-open" onclick="openMobileMenu()"><i class="fas fa-bars"></i></button>
+        <div class="nav-links-container">
+          <button class="mobile-menu-close" onclick="closeMobileMenu()"><i class="fas fa-times"></i></button>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html">Home</a>
+              <i class="fa-solid fa-arrow-right"></i>
+            </li>
+            <hr>
+            <li>
+              <a href="pages/about-us.html">About Us</a>
+              <i class="fa-solid fa-arrow-right"></i>
+            </li>
+            <hr>
+            <li>
+              <a href="pages/services.html">Services</a>
+              <i class="fa-solid fa-arrow-right"></i>
+            </li>
+            <hr>
+            <li>
+              <a href="#">Sales</a>
+              <i class="fa-solid fa-arrow-right"></i>
+            </li>
+            <hr>
+            <li>
+              <a href="#" class="contact-us-button">Contact Us</a>
+              <i class="fa-solid fa-arrow-right"></i>
+            </li>
+            <hr>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!--  -->
+    <section class="motto">
+      <div class="container-fluid">
+        <div class="motto-text">
+          <h1>Choose us <span>and our supliments</span> for a <span> healthier lifestyle</span></h1>
+          <a href="pages/about-us.html" class="btn btn-primary">Find more</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Section including services and supliments-->
+    <section class="services">
+      <div class="container">
+        <h1 class="mt-2 mb-1">Services and supliments we offer</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <div class="card">
+              <i class="fa-solid fa-dumbbell"></i>
+              <div class="card1">
+                <h5 class="title">Fat loss</h5>
+                <p class="paragraph">We are always trying to find and to develop our products that might help you in
+                  this way of fat-loss and all are acreditated by well-knows companies.</p>
+                <a href="pages/services.html">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="card">
+              <i class="fa-solid fa-dumbbell"></i>
+              <div class="card1">
+                <h5 class="title">Muscles increase</h5>
+                <p class="paragraph">We all know that this subject is nowadays a taboo one and that's why we have a big
+                  gamma-product, also our blog contains informations about this domain.</p>
+                <a href="pages/services.html">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="card">
+              <i class="fa-solid fa-dumbbell"></i>
+              <div class="card1">
+                <h5 class="title">Work-from-Home</h5>
+                <p class="paragraph">Since the pandemic time, we managed to develop a special section with utilities
+                  that help you achieve your fitness goals even working-out from home.</p>
+                <a href="pages/services.html">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="card">
+              <i class="fa-solid fa-dumbbell"></i>
+              <div class="card1">
+                <h5 class="title">Sport clothes</h5>
+                <p class="paragraph">The feedback we received after a short period of time that we were seeling clothes,
+                  helped us improve our quality and achieve a well-known sport brand for this kind of clothes.</p>
+                <a href="pages/services.html">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="card">
+              <i class="fa-solid fa-dumbbell"></i>
+              <div class="card1">
+                <h5 class="title">Influencers partnership</h5>
+                <p class="paragraph">We all know that one of the most powerfull tool when it comes about promoting.
+                  That's why we are working with people that have experience in this domain to help us promote our work.
+                </p>
+                <a href="pages/services.html">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="card">
+              <i class="fa-solid fa-dumbbell"></i>
+              <div class="card1">
+                <h5 class="title">Dropshipping</h5>
+                <p class="paragraph">As we are always increasing our stocks, we choose to expand our business working
+                  along with others online retailers because our brand is strongly known for its quality and customer
+                  relationship.</p>
+                <a class="informations-about" href="pages/services.html">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="need-help">
+          <h5 class="decision">Need help deciding</h5>
+          <a href="pages/about-us.html" class="btn btn-primary">Contact Us</a>
+          <div class="grower animated"></div>
+        </div>
+
+        <!-- Section Acreditations -->
+        <section class="acreditations">
+          <div class="presenting-companies">
+            <h2 class="title-description">Accreditations</h2>
+            <hr>
+            <h5 class="descripting-acreditations">The accreditations below certify that we are a safe, accredited
+              contractor. We always strive to provide our services at the highest possible standards.</h5>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col">
+              <img src="images/srl1.png" alt="First-Acreditation-Company">
+            </div>
+            <div class="col-lg-3 col">
+              <img src="images/srl2.png" alt="Second-Acreditation-Company">
+            </div>
+            <div class="col-lg-3 col">
+              <img src="images/srl4.png" alt="The fourth-Acreditation-Company">
+            </div>
+            <div class="col-lg-3 col">
+              <img src="images/srl5.png" alt="Acreditation-Company-number-5">
+            </div>
+            <div class="col-lg-3 col">
+              <img src="images/srl6.png" alt="Acreditation-Company-number-6">
+            </div>
+            <div class="col-lg-3 col">
+              <img src="images/srl3.png" alt="Acreditation-Company-number-7">
+            </div>
+            <div class="col-lg-3 col">
+              <img src="images/srl8.png" class="company-logo1" alt="Acreditation-Company-number-8">
+            </div>
+            <div class="col-lg-3 col">
+              <img src="images/srl9.png" class="company-logo1" alt="Acreditation-Company-number-8">
+            </div>
+          </div>
+          <div class="learn-about-accreditations">
+            <h5 class="decision">Open to work with us? Find out below</h5>
+            <div class="row">
+              <div class="col col">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="images/arrow.png" class="company" alt="Acreditation-Company-number-8">
+                    </div>
+                    <div class="flip-card-back">
+                      <h6>Well-known brand <br> in more than <br> 3 countries and online blogs</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="images/arrow.png" class="company" alt="Acreditation-Company-number-8">
+                    </div>
+                    <div class="flip-card-back">
+                      <h6>Over 5000 customers / month <br> All payment methods</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="images/arrow.png" class="company" alt="Acreditation-Company-number-8">
+                    </div>
+                    <div class="flip-card-back">
+                      <h6>Partnerships with local gyms and fitness championships</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <a href="pages/about-us.html" class="btn btn-primary">Contact Us</a>
+          </div>
+          <div class="grower animated"></div>
+        </section>
+
+        <!--Our Projects Section-->
+        <section class="our_projects">
+          <div class="projects-informations">
+            <h2>Our projects</h2>
+          </div>
+          <div class="flex-container">
+            <div class="flex-item-left">
+              <img src="images/blog1.webp" class="blog-presentation1" alt="plate-dish">
+              <p>We are providing lots of dishes including healthy food along with our supliments. </p>
+            </div>
+            <div class="flex-item-left">
+              <img src="images/blog2.png" class="blog-presentation2" alt="Coffeine stimuls about the body">
+              <p>Trying to keep you in touch with the new researches, like this one based on coffee and many, many
+                others available on the blog.</p>
+            </div>
+            <div class="flex-item-left">
+              <img src="images/blog3.webp" class="blog-presentation3" alt="Muscle increasing presentation">
+              <p>Our fitness coaches are ready to give you fresh ideas about trainings and how can you develop your
+                fitness skills.</p>
+            </div>
+          </div>
+        </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 pt-4 item text">
+          <h3 class="footer-category">GYMBEAM S.R.O.</h3>
+          <p>We are <span>GymBeam</span>, a brand of progressive healthy foods.</p>
+          <!-- Social Media Icons -->
+          <div class="social-media">
+            <div class="circle-facebook">
+              <a href="https://www.facebook.com/GymBeamRo">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="circle-instagram">
+              <a href="https://www.instagram.com/gymbeamro/">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div class="circle-youtube">
+              <a href="https://www.youtube.com/c/GymBeamro">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+            <div class="circle-twitter">
+              <a href="https://mobile.twitter.com/gymbeamteam">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+            <div class="circle-tiktok">
+              <a href="https://www.tiktok.com/@gymbeam.com">
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 pt-4 item hide-on-mobile">
+          <h3 class="footer-category">Products</h3>
+          <div class="separator"></div>
+          <ul>
+            <li><a href="#">Nutrition</a></li>
+            <li><a href="#">Clothing and accessories</a></li>
+            <li><a href="#">Groups of allergens</a></li>
+            <li><a href="#">Articles and tips</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 pt-4 item hide-on-mobile">
+          <h3 class="footer-category">Loyalty and rewards</h3>
+          <div class="separator"></div>
+          <ul>
+            <li><a href="#">Referral program</a></li>
+            <li><a href="#">Offers for new customers</a></li>
+            <li><a href="#">Black friday</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 pt-4 item hide-on-mobile">
+          <h3 class="footer-category">Customer support</h3>
+          <div class="separator"></div>
+          <ul>
+            <li><a href="#">Delivery Information</a></li>
+            <li><a href="#">Return policy</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+        <p class="company">© 2014 - 2022 GymBeam</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="scripts/menu.js"></script>
+</body>
+
+</html>

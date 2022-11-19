@@ -1,0 +1,235 @@
+/* Footer Section */
+
+footer {
+    height: 275px;
+    background-color: var(--dark);
+    color: var(--light)
+  }
+  
+  footer .container .text {
+    margin-bottom: 20px;
+  }
+  
+  footer .container .text span {
+    font-weight: bold;
+  }
+  
+  footer .container .social-media {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  
+  /* Facebook Icon*/
+  footer .container .circle-facebook {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--light);
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .container .circle-facebook i {
+    color: var(--dark);
+  }
+  
+  footer .container .circle-facebook:hover {
+    background-color: #4267B2;
+    scale: 1.2;
+    transform: rotate(360deg);
+    transition: 0.3s ease-in-out;
+  }
+  
+  footer .container .circle-facebook i:hover {
+    color: var(--light);
+  }
+  
+  /* Instagram Icon*/
+  footer .container .circle-instagram {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--light);
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .container .circle-instagram i {
+    color: var(--dark);
+  }
+  
+  footer .container .circle-instagram:hover {
+    background: rgb(64, 93, 230);
+    background: linear-gradient(215deg, rgba(64, 93, 230, 1) 0%, rgba(225, 48, 108, 1) 55%, rgba(252, 175, 69, 1) 100%);
+    scale: 1.2;
+    transform: rotate(360deg);
+    transition: 0.3s ease-in-out;
+  }
+  
+  footer .container .circle-instagram i:hover {
+    color: var(--light);
+  }
+  
+  /* Youtube Icon*/
+  footer .container .circle-youtube {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--light);
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .container .circle-youtube i {
+    color: var(--dark);
+  }
+  
+  footer .container .circle-youtube:hover {
+    background-color: #FF0000;
+    scale: 1.2;
+    transform: rotate(360deg);
+    transition: 0.3s ease-in-out;
+  }
+  
+  footer .container .circle-youtube i:hover {
+    color: var(--light);
+  }
+  
+  /* Twitter Icon*/
+  footer .container .circle-twitter {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--light);
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .container .circle-twitter i {
+    color: var(--dark);
+  }
+  
+  footer .container .circle-twitter:hover {
+    background-color: #1DA1F2;
+    scale: 1.2;
+    transform: rotate(360deg);
+    transition: 0.3s ease-in-out;
+  }
+  
+  footer .container .circle-twitter i:hover {
+    color: var(--light);
+  }
+  
+  /* Tiktok Icon */
+  footer .container .circle-tiktok {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--light);
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .container .circle-tiktok i {
+    color: var(--dark);
+  }
+  
+  footer .container .circle-tiktok:hover {
+    background-color: var(--dark);
+    scale: 1.2;
+    transform: rotate(360deg);
+    transition: 0.3s ease-in-out;
+  }
+  
+  footer .container .circle-tiktok i:hover {
+    color: var(--light);
+  }
+  
+  footer .container .row .footer-category {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 27px;
+  }
+  
+  footer .container .row .separator {
+    width: 50px;
+    border: 1px solid var(--light);
+  }
+  
+  footer .container .row ul {
+    padding: 0;
+    margin-top: 8px;
+  }
+  
+  footer .container .row li {
+    list-style-type: none;
+  }
+  
+  footer .container .row li a {
+    color: var(--light);
+    text-decoration: none;
+  }
+  
+  footer .container .row .company {
+    font-weight: bold;
+  }
+  
+  /* Mobile */
+  @media (max-width: 767px) {
+    footer {
+      height: 100%;
+      margin-bottom: 0;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    footer .row .item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    footer .row .hide-on-mobile {
+      display: none;
+    }
+  
+    footer .container .social-media {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  
+    footer .container .row .footer-category {
+      font-size: 22px;
+    }
+  
+    footer .container .row li a {
+      font-size: 14px;
+    }
+  
+  }
+  
+  /* Tablets */
+  @media (min-width: 768px) and (max-width: 991px) {
+  
+    footer .container .circle-facebook,
+    footer .container .circle-instagram,
+    footer .container .circle-youtube,
+    footer .container .circle-twitter,
+    footer .container .circle-tiktok {
+      height: 22px;
+      width: 30px;
+    }
+  }

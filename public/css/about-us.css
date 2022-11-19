@@ -1,0 +1,564 @@
+/* Hero Section */
+
+section.hero .container-fluid {
+    padding: 0px;
+    background-image: url("../images/hero-section.png");
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.hero .hero-text {
+    width: 693px;
+    height: 100px;
+    background: var(--dark-shadow);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.hero .hero-text h1 {
+    color: var(--light);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+}
+
+section.hero .hero-text span {
+    color: var(--orange);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    section.hero .hero-text {
+        width: 75%;
+    }
+
+    section.hero .hero-text h1 {
+        font-size: 30px;
+    }
+
+    section.hero .hero-text span {
+        font-size: 30px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    section.hero .hero-text {
+        width: 75%;
+    }
+
+    section.hero .hero-text h1 {
+        font-size: 35px;
+    }
+
+    section.hero .hero-text span {
+        font-size: 35px;
+    }
+}
+
+/*  */
+/* General Information Section */
+/*  */
+
+section.general-info {
+    background: #F5F5F5;
+}
+
+section.general-info .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+section.general-info .container h1,
+section.company-values .container h1,
+section.asked-questions .container h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #3D3E40;
+}
+
+section.general-info .container .separator,
+section.company-values .container .separator,
+section.asked-questions .container .separator {
+    width: 100px;
+    height: 0px;
+    border: 1px solid var(--orange);
+    margin-bottom: 50px;
+}
+
+section.general-info .container .row {
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+section.general-info .container .short-history {
+    display: flex;
+    justify-content: flex-start;
+}
+
+section.general-info .container .text-container {
+    max-width: 530px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3D3E40;
+    text-indent: 50px;
+}
+
+section.general-info .container .gym-training {
+    display: flex;
+    justify-content: center;
+}
+
+section.general-info .container .gym-training img {
+    width: 360px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+section.general-info .container .capabilities {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+section.general-info .container .capabilities-redirect {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color: var(--orange);
+}
+
+section.general-info .container .map {
+    width: 100%;
+    box-shadow: 0px 0px 9px rgba(174, 174, 174, 0.1);
+    border-radius: 5px;
+    background: var(--light);
+}
+
+section.general-info .container .address-box {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.general-info .container .address-box .pin-icon-address {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+section.general-info .container .address-box .pin-icon {
+    height: 54px;
+    width: 40px;
+}
+
+section.general-info .container .address-box .address-text {
+    margin-right: 30px;
+}
+
+section.general-info .container .address-box .address {
+    color: rgba(61, 62, 64, 1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/*  */
+/* Company Values */
+/*  */
+
+section.company-values {
+    background-color: rgba(234, 234, 234, 1);
+}
+
+section.company-values .container,
+section.asked-questions .container {
+    padding-top: 116px;
+    padding-bottom: 125px;
+}
+
+section.company-values .container .title,
+section.asked-questions .container .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+section.company-values .container h1,
+section.asked-questions .container h1 {
+    text-align: center;
+}
+
+section.company-values .container .separator,
+section.asked-questions .container .separator {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.company-values .container .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.company-values .container .row .value-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.company-values .container .row .value-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #3D3E40;
+}
+
+section.company-values .container .row .value-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3D3E40;
+    text-align: center;
+    max-width: 350px;
+}
+
+section.company-values .container .row .liquid-shape {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light);
+    width: 120px;
+    height: 120px;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    animation: liquid-shape-animation 4s ease-in-out infinite alternate;
+    margin-bottom: 30px;
+}
+
+section.company-values .container .row .liquid-shape i {
+    scale: 3;
+    animation: icons-animation 4s ease-in-out infinite alternate;
+}
+
+/* Star */
+section.company-values .container .row .liquid-shape .fa-star:hover {
+    color: var(--orange);
+    transition: 1s ease-in-out;
+    rotate: 360deg;
+}
+
+/* Bolt */
+section.company-values .container .row .liquid-shape .fa-bolt:hover {
+    color: #0892D0;
+    transition: 0.5s;
+    animation: bolt-animation 0.5s;
+}
+
+/* Moon */
+section.company-values .container .row .liquid-shape .fa-moon:hover {
+    color: #c2c5cc;
+    transition: 1s ease-in-out;
+    rotate: 210deg;
+}
+
+/* Animations */
+@keyframes liquid-shape-animation {
+    0% {
+        border-radius: 60% 40% 30% 150% / 60% 30% 70% 40%;
+        background-size: 100% 100%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        background-size: 400% 200%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 150% / 60% 30% 70% 40%;
+        background-size: 100% 100%;
+    }
+
+}
+
+@keyframes icons-animation {
+    0% {
+        scale: 3;
+    }
+
+    50% {
+        scale: 3.5;
+    }
+
+    100% {
+        scale: 2.5;
+    }
+}
+
+@keyframes bolt-animation {
+    0% {
+        transform: translate(1, -1);
+    }
+
+    50% {
+        transform: translate(-1px, 1px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .revert-on-mobile {
+        flex-direction: column-reverse;
+    }
+
+    section.general-info .container,
+    section.company-values .container,
+    section.asked-questions .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    section.general-info .container h1,
+    section.company-values .container h1,
+    section.asked-questions .container h1 {
+        font-size: 24px;
+    }
+
+    section.general-info .container .text-container {
+        font-size: 12px;
+        text-indent: 0px;
+    }
+
+    section.general-info .container .gym-training {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    section.general-info .container .gym-training img {
+        width: 250px;
+        height: 227px;
+    }
+
+    section.general-info .container .short-history {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    section.general-info .container .capabilities {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    section.general-info .container .map {
+        width: 90%;
+    }
+
+    section.general-info .container .address-box .address-text {
+        margin-right: 15px;
+    }
+
+    section.general-info .container .address-box .address {
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+    section.general-info .container .address-box .pin-icon {
+        height: 40px;
+        width: 30px;
+    }
+
+    section.company-values .container .row {
+        gap: 30px;
+    }
+
+    section.company-values .container .row .value-description {
+        max-width: 80%;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    section.general-info .container,
+    section.company-values .container,
+    section.asked-questions .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    section.general-info .container .gym-training img {
+        width: 260px;
+        height: 227px;
+    }
+
+    section.general-info .container .address-box .address {
+        font-size: 16px;
+    }
+
+    section.general-info .container .address-box .pin-icon {
+        height: 40px;
+        width: 30px;
+    }
+}
+
+/*  */
+/* Frequently Asked Questions */
+/*  */
+
+section.asked-questions {
+    background-color: #F5F5F5;
+}
+
+section.asked-questions .container .row .category {
+    margin-top: 70px;
+}
+
+section.asked-questions .container .question-box {
+    background: rgba(234, 234, 234, 1);
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 34px;
+    box-shadow: 0px 0px 9px rgba(174, 174, 174, 0.1);
+}
+
+section.asked-questions .container .question-box .question {
+    display: flex;
+    width: 70%;
+}
+
+section.asked-questions .container .question-box .question .symbol,
+section.asked-questions .container .question-box .question .q {
+    margin-right: 42px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #3D3E40;
+    margin-bottom: 0px;
+}
+
+section.asked-questions .container .question-box .question .q {
+    font-weight: 500;
+}
+
+section.asked-questions .container .question-box .arrow-Up {
+    display: none;
+}
+
+section.asked-questions .container .answer-box {
+    background: var(--light);
+    border-top: 2px solid var(--orange);
+    border-radius: 0px 0px 5px 5px;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    animation: show-answer 3s;
+}
+
+@keyframes show-answer {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+section.asked-questions .container .answer-box .answer {
+    width: 86%;
+}
+
+section.asked-questions .container .answer-box .answer p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3D3E40;
+    margin: 0px;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    section.asked-questions .container {
+        padding-bottom: 80px;
+    }
+
+    section.asked-questions .container .row .category {
+        text-align: center;
+    }
+
+    section.asked-questions .container .question-box .question {
+        width: 80%;
+    }
+
+    section.asked-questions .container .question-box .question .q {
+        font-size: 16px;
+        margin-right: 0px;
+    }
+
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    section.asked-questions .container .question-box .question {
+        width: 80%;
+    }
+
+    section.asked-questions .container .question-box .question .q {
+        font-size: 16px;
+    }
+
+    section.asked-questions .container .answer-box .answer p {
+        font-size: 14px;
+
+    }
+}

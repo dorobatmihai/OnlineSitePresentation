@@ -1,0 +1,623 @@
+/* Section Products */
+
+section.products .products-img {
+    padding: 0px;
+    background-image: url(../images/hero-section-products.jpg);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.products .products-text {
+    background-color: var(--dark-shadow);
+    border-radius: 10px;
+    height: 100px;
+    width: 693px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.products .products-text h1 {
+    color: var(--light);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+}
+
+section.products .products-text span {
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+}
+
+/* Section General Info */
+
+section.general-info {
+    padding-bottom: 80px;
+}
+
+section.general-info .info {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    margin-top: 120px;
+}
+
+section.general-info .separator {
+    width: 100px;
+    border: 2px solid var(--orange);
+}
+
+section.general-info .description {
+    margin-top: 23px;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+section.general-info .learn-more a {
+    font-weight: 600;
+    line-height: 27px;
+    font-size: 20px;
+    color: var(--orange);
+}
+
+section.general-info .container-separator {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Products Section */
+
+section.protein {
+    background: #F5F5F5;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+section.protein .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.protein .container h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #3D3E40;
+}
+
+section.protein .container .separator {
+    width: 100px;
+    height: 0px;
+    border: 2px solid var(--orange);
+    margin-bottom: 34px;
+}
+
+section.protein .container .row {
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+section.protein .container .protein-description {
+    display: flex;
+    justify-content: flex-start;
+}
+
+section.protein .container .text-container {
+    max-width: 530px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #3D3E40;
+}
+
+section.protein .container .protein-jar {
+    display: flex;
+    justify-content: center;
+}
+
+section.protein .container .protein-jar img {
+    width: 400px;
+    height: 350px;
+
+}
+
+section.creatine {
+    background: #F5F5F5;
+    padding-top: 80px;
+}
+
+section.creatine .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.creatine .container h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #3D3E40;
+}
+
+section.creatine .container .separator {
+    width: 100px;
+    height: 0px;
+    border: 2px solid var(--orange);
+    margin-bottom: 34px;
+}
+
+section.creatine .container .row {
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+section.creatine .container .creatine-description {
+    display: flex;
+    justify-content: flex-end;
+}
+
+section.creatine .container .text-container {
+    max-width: 530px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #3D3E40;
+}
+
+section.creatine .container .creatine-jar {
+    display: flex;
+    justify-content: center;
+}
+
+section.creatine .container .creatine-jar img {
+    width: 400px;
+    height: 350px;
+
+}
+
+/* Section Preworkout */
+
+section.preworkout {
+    background: #F5F5F5;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+section.preworkout .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section.preworkout .container h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #3D3E40;
+}
+
+section.preworkout .container .separator {
+    width: 100px;
+    height: 0px;
+    border: 2px solid var(--orange);
+    margin-bottom: 34px;
+}
+
+section.preworkout .container .row {
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+section.preworkout .container .preworkout-description {
+    display: flex;
+    justify-content: flex-start;
+}
+
+section.preworkout .container .text-container {
+    max-width: 530px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #3D3E40;
+}
+
+section.preworkout .container .preworkout-jar {
+    display: flex;
+    justify-content: center;
+}
+
+section.preworkout .container .preworkout-jar img {
+    width: 400px;
+    height: 350px;
+
+}
+
+/* Best Sellers Section */
+
+section.best-sellers .container-separator {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+section.best-sellers .container .separator {
+    width: 100px;
+    height: 0px;
+    border: 2px solid var(--orange);
+    margin-bottom: 34px;
+}
+
+section.best-sellers {
+    background: var(--light);
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+section.best-sellers h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #3D3E40;
+}
+
+section.best-sellers .button {
+    padding-top: 15px;
+}
+
+section.best-sellers .descriere {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+section.best-sellers .fa-star {
+    color: var(--orange);
+    font-size: 22px;
+}
+
+section.best-sellers .container img {
+    height: 350px;
+    width: 400px;
+}
+
+section.best-sellers .container .best {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+/* Reviews Section */
+section.reviews .cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.reviews {
+    background-color: #F5F5F5;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+section.reviews .stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+section.reviews .stars p {
+    margin-bottom: 0px;
+}
+
+section.reviews .container-reviews .container-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.reviews .container-reviews {
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+section.reviews .separator {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+section.reviews .fa-star {
+    color: var(--orange);
+    font-size: 26px;
+}
+
+section.reviews .container-reviews .text {
+    display: flex;
+    gap: 15px;
+}
+
+section.reviews .container-reviews .container-text {
+    display: flex;
+    align-items: baseline;
+    font-size: 26px;
+    margin-top: 20px;
+    color: grey;
+}
+
+section.reviews .container-reviews .container-text h1 {
+    font-size: 36px;
+    color: var(--dark);
+}
+
+section.reviews .container-reviews .text img {
+    height: 100px;
+    width: 100px;
+}
+
+button {
+    background: var(--orange);
+    background: linear-gradient(top, #555, #333);
+    border: none;
+    border-top: 3px solid #444;
+    border-radius: 0 0 0.2em 0.2em;
+    color: var(--light);
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 1em;
+    animation: wiggle 2s linear infinite;
+    padding: 10px;
+}
+
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .revert-on-mobile {
+        flex-direction: column-reverse;
+    }
+
+    section.general-info .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    section.general-info .container h1 {
+        font-size: 24px;
+    }
+
+    section.general-info .container .description {
+        font-size: 12px;
+    }
+
+    section.protein .container .text-container {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    section.protein .container .protein-jar {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    section.general-info .learn-more {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    section.creatine {
+        padding-top: 20px;
+    }
+
+    section.creatine .container .text-container {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.creatine .container .creatine-jar {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    section.preworkout .container .preworkout-jar img {
+        width: 300px;
+        height: 250px;
+
+    }
+
+    section.protein .container .protein-jar img {
+        width: 300px;
+        height: 250px;
+
+    }
+
+    section.creatine .container .creatine-jar img {
+        width: 300px;
+        height: 250px;
+
+    }
+
+    section.protein .container .protein-jar {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    section.preworkout {
+        padding-top: 20px;
+    }
+
+    section.preworkout .container .text-container {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.reviews {
+        padding-top: 40px;
+    }
+
+    section.preworkout .container .preworkout-jar {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    section.reviews .header h1 {
+        font-size: 26px;
+    }
+
+    section.reviews .container .stars {
+        font-size: 16px;
+    }
+
+    section.reviews .container .stars .container {
+        gap: 10px
+    }
+
+    section.reviews .container-reviews .user-review {
+        margin-top: 25px;
+    }
+
+    section.reviews .container-reviews .container-text h1 {
+        font-size: 26px;
+    }
+
+    section.reviews .container-reviews .container-text {
+        font-size: 16px;
+    }
+
+    section.accreditation .container-buton {
+        margin-top: 20px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    section.reviews .container-reviews .container-text {
+        font-size: 16px;
+    }
+
+    section.reviews .container-reviews .container-text h1 {
+        font-size: 26px;
+    }
+
+    section.reviews .header h1 {
+        font-size: 26px;
+    }
+
+    section.reviews .container-reviews .container-text {
+        font-size: 16px;
+    }
+
+    section.reviews .container-reviews .text img {
+        height: 75px;
+        width: 75px;
+    }
+
+
+    section.protein .container .protein-jar img {
+        width: 300px;
+        height: 250px;
+
+    }
+
+    section.creatine .container .creatine-jar img {
+        width: 300px;
+        height: 250px;
+
+    }
+
+    section.preworkout .container .preworkout-jar img {
+        width: 300px;
+        height: 250px;
+
+    }
+
+    section.creatine .container .creatine-jar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section.protein .container .protein-jar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section.preworkout .container .preworkout-jar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section.best-sellers .container img {
+        height: 250px;
+        width: 300px;
+    }
+
+}

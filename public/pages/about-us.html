@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../images/favicon.webp" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b13a0fbc73.js" crossorigin="anonymous"></script>
+    <!-- Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>About us</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="../fonts/fonts.css" />
+    <!-- CSS Variables -->
+    <link rel="stylesheet" href="../css/variables.css" />
+    <!-- Menu CSS -->
+    <link rel="stylesheet" href="../css/menu.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/about-us.css" />
+    <!-- Footer CSS -->
+    <link rel="stylesheet" href="../css/footer.css" />
+</head>
+
+<body>
+    <!-- Scroll up button -->
+    <div class="arrow-btn">
+        <a href="#"><span class="fas fa-angle-up"></span></a>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <!-- Announcement Section -->
+        <section class="announcement">
+            <div class="container">
+                <div class="col-md-4 col-xs-12 announcement">
+                    <p class="hide-on-mobile">Email: <span>info@gymbeam.ro</span></p>
+                    <p>Call GB Today: <span>0040 316 302 838</span></p>
+                    <p class="hide-on-mobile">
+                        Emergency? Call: <span>07968 788 009</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navbar Section -->
+        <section class="navbar">
+            <div class="container header-container">
+                <div class="logo-link">
+                    <a href="../index.html">
+                        <img src="../images/logo.webp" class="logo" alt="GymBeam Logo" />
+                    </a>
+                </div>
+                <button class="mobile-menu-open" onclick="openMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="nav-links-container">
+                    <button class="mobile-menu-close" onclick="closeMobileMenu()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class="nav-links">
+                        <li>
+                            <a href="../index.html">Home</a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </li>
+                        <hr />
+                        <li>
+                            <a href="../pages/about-us.html">About Us</a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </li>
+                        <hr />
+                        <li>
+                            <a href="../pages/services.html">Services</a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </li>
+                        <hr />
+                        <li>
+                            <a href="#">Sales</a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </li>
+                        <hr />
+                        <li>
+                            <a href="#" class="contact-us-button">Contact Us</a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </li>
+                        <hr />
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container-fluid" class="img-fluid">
+                <div class="hero-text">
+                    <h1>About <span>Us</span></h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- General Information Section -->
+        <section class="general-info">
+            <div class="container">
+                <h1>GymBeam History</h1>
+                <div class="separator"></div>
+                <div class="row revert-on-mobile">
+                    <div class="col-md-6 col-xs-12 short-history">
+                        <div class="text-container">
+                            <p>
+                                We are manufacturer of more than 700 products of sport
+                                nutrition and functional food with 6 own brands and over 120
+                                brands that are reselled. Gymbeam has currently over 300
+                                employees and rapidly growing during these months. We are
+                                expanding, especially for roles in Marketing, Logistics as
+                                well as IT and Data science.
+                            </p>
+                            <p>
+                                We are manufacturer of more than 700 products of sport
+                                nutrition and functional food with 6 own brands and over 120
+                                brands that are reselled. Gymbeam has currently over 300
+                                employees and rapidly growing during these months. We are
+                                expanding, especially for roles in Marketing, Logistics as
+                                well as IT and Data science.
+                            </p>
+                            <p>
+                                We are manufacturer of more than 700 products of sport
+                                nutrition and functional food with 6 own brands and over 120
+                                brands that are reselled. Gymbeam has currently over 300
+                                employees and rapidly growing during these months. We are
+                                expanding, especially for roles in Marketing, Logistics as
+                                well as IT and Data science.
+                            </p>
+                            <div class="capabilities">
+                                <a href="#" class="capabilities-redirect">Learn more about our capabilities</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12 gym-training">
+                        <img src="../images/gym-training.jpg" class="gym-training" alt="A man training in a gym" />
+                    </div>
+                </div>
+                <div class="map" data-aos="zoom-in-up" data-aos-once=true>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9584.651197701587!2d26.069409026546886!3d44.422210425585284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ffd8b4aa95f7%3A0xeab363c53a1f8af!2sGymBeam.ro!5e0!3m2!1sen!2sro!4v1668020212761!5m2!1sen!2sro"
+                        width="100%" height="160" style="border: 0" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="address-box">
+                        <div class="pin-icon-address">
+                            <img src="../images/pin-icon.png" class="pin-icon" alt="Pin Icon for Contact Address" />
+                        </div>
+                        <div class="address-text">
+                            <span class="address">22 Tudor Vladimirescu Avenue, Bucharest 050883, Romania</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Values -->
+        <section class="company-values">
+            <div class="container">
+                <div class="title" data-aos="fade-down" data-aos-once=true>
+                    <h1>Our Company Values</h1>
+                    <div class="separator"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-xs-12" data-aos="fade-up-right" data-aos-once=true>
+                        <div class="value-card">
+                            <div class="liquid-shape">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="value-name">Quality</p>
+                            <p class="value-description">
+                                Companies are judged by the craftsmanship of their products
+                                and services, so the highest standards must be maintained.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12" data-aos="fade-up" data-aos-once=true>
+                        <div class="value-card">
+                            <div class="liquid-shape">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <p class="value-name">Honesty</p>
+                            <p class="value-description">
+                                It's not just the best policy. It's a core business practice
+                                to act in a transparent, trustworthy manner that earns the
+                                respect of colleagues, customers, and the public.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12" data-aos="fade-up-left" data-aos-once=true>
+                        <div class="value-card">
+                            <div class="liquid-shape">
+                                <i class="fas fa-moon"></i>
+                            </div>
+                            <p class="value-name">Integrity</p>
+                            <p class="value-description">
+                                Acting with strong ethics is a priority for everyone
+                                representing the organization as well as the company's
+                                behavior as a whole.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frequently Asked Questions -->
+        <section class="asked-questions">
+            <div class="container">
+                <div class="title" data-aos="fade-down" data-aos-once=true>
+                    <h1>Frequently Asked Questions</h1>
+                    <div class="separator"></div>
+                </div>
+                <div class="row">
+                    <div class="category" data-aos="zoom-in-right" data-aos-once=true>
+                        <h3>Products Choice</h3>
+                    </div>
+                    <div class="col-md-12 col-xs-12" data-aos="zoom-out-left" data-aos-once=true>
+                        <div class="question-box" id="questionBox">
+                            <div class="question">
+                                <p class="symbol">Q:</p>
+                                <p class="q">Do I need help choosing the right products?</p>
+                            </div>
+                            <img src="../images/arrow-down.png" alt="Arrow pointing down" class="arrow-Down"
+                                id="arrowDown" />
+                            <img src="../images/arrow-up.png" alt="Arrow pointing up" class="arrow-Up" id="arrowUp" />
+                        </div>
+                        <div class="answer-box" id="answerBox">
+                            <div class="answer">
+                                <p>
+                                    A: We are happy to advise you on the choice of nutritional
+                                    supplements, fitness foods and other products that you find
+                                    on <b><a href="../index.html">our website</a></b>. It is enough to contact the customer
+                                    relations service at
+                                    the number <b>0040 316 302 838</b> or by e-mail at the
+                                    address <b>info@gymbeam.ro</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xs-12" data-aos="zoom-out-right" data-aos-once=true>
+                        <div class="question-box">
+                            <div class="question">
+                                <p class="symbol">Q:</p>
+                                <p class="q">
+                                    How can I find out information about product availability?
+                                </p>
+                            </div>
+                            <img src="../images/arrow-down.png" alt="Arrow pointing down" class="arrow-Down"
+                                id="arrowDown2" />
+                            <img src="../images/arrow-up.png" alt="Arrow pointing up" class="arrow-Up" id="arrowUp2" />
+                        </div>
+                        <div class="answer-box" id="answerBox2">
+                            <div class="answer">
+                                <p>
+                                    A: Information about product availability can be obtained by
+                                    sending a e-mail at <b>info@gymbeam.ro</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xs-12" data-aos="zoom-out-left" data-aos-once=true>
+                        <div class="question-box">
+                            <div class="question">
+                                <p class="symbol">Q:</p>
+                                <p class="q">
+                                    What does the "basic price" displayed next to the products
+                                    mean?
+                                </p>
+                            </div>
+                            <img src="../images/arrow-down.png" alt="Arrow pointing down" class="arrow-Down"
+                                id="arrowDown3" />
+                            <img src="../images/arrow-up.png" alt="Arrow pointing up" class="arrow-Up" id="arrowUp3" />
+                        </div>
+                        <div class="answer-box" id="answerBox3">
+                            <div class="answer">
+                                <p>
+                                    A: The normal price refers to the average value, at which
+                                    you can purchase the product from other online stores.
+                                    <b>GymBeam</b> guarantees you the best prices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xs-12" data-aos="zoom-out-right" data-aos-once=true>
+                        <div class="question-box">
+                            <div class="question">
+                                <p class="symbol">Q:</p>
+                                <p class="q">Where can I find the size chart?</p>
+                            </div>
+                            <img src="../images/arrow-down.png" alt="Arrow pointing down" class="arrow-Down"
+                                id="arrowDown4" />
+                            <img src="../images/arrow-up.png" alt="Arrow pointing up" class="arrow-Up" id="arrowUp4" />
+                        </div>
+                        <div class="answer-box" id="answerBox4">
+                            <div class="answer">
+                                <p>
+                                    A: The sizes of the garment are generally indicated in table
+                                    of sizes, present in the product description, at the bottom
+                                    of the page. If you haven't found the requested information,
+                                    please call the service relations with customers, on the
+                                    phone number <b>0040 316 302 838</b> or contact us by e-mail
+                                    at address <b>info@gymbeam.ro</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category" data-aos="zoom-in-right" data-aos-once=true>
+                        <h3>Order registration and processing</h3>
+                    </div>
+                    <div class="col-md-12 col-xs-12" data-aos="zoom-out-left" data-aos-once=true>
+                        <div class="question-box">
+                            <div class="question">
+                                <p class="symbol">Q:</p>
+                                <p class="q">
+                                    Do I have to have an account when I want to place an order?
+                                </p>
+                            </div>
+                            <img src="../images/arrow-down.png" alt="Arrow pointing down" class="arrow-Down"
+                                id="arrowDown5" />
+                            <img src="../images/arrow-up.png" alt="Arrow pointing up" class="arrow-Up" id="arrowUp5" />
+                        </div>
+                        <div class="answer-box" id="answerBox5">
+                            <div class="answer">
+                                <p>
+                                    A: No, just fill out the order form.
+                                    However, it is useful to have a registered account, because with
+                                    with the help of the customer account, you will be able to monitor the status
+                                    order.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xs-12" data-aos="zoom-out-right" data-aos-once=true>
+                        <div class="question-box">
+                            <div class="question">
+                                <p class="symbol">Q:</p>
+                                <p class="q">Why can't I access my account?</p>
+                            </div>
+                            <img src="../images/arrow-down.png" alt="Arrow pointing down" class="arrow-Down"
+                                id="arrowDown6" />
+                            <img src="../images/arrow-up.png" alt="Arrow pointing up" class="arrow-Up" id="arrowUp6" />
+                        </div>
+                        <div class="answer-box" id="answerBox6">
+                            <div class="answer">
+                                <p>
+                                    A: You may have entered a wrong password or you may be
+                                    registered with a different email address. If you have problems
+                                    to access your account, please contact us by email
+                                    to the address <b>info@gymbeam.ro</b> or by phone at the number
+                                    <b>0040 316 302 838</b>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xs-12" data-aos="zoom-out-left" data-aos-once=true>
+                        <div class="question-box">
+                            <div class="question">
+                                <p class="symbol">Q:</p>
+                                <p class="q">Can the products be ordered by phone?</p>
+                            </div>
+                            <img src="../images/arrow-down.png" alt="Arrow pointing down" class="arrow-Down"
+                                id="arrowDown7" />
+                            <img src="../images/arrow-up.png" alt="Arrow pointing up" class="arrow-Up" id="arrowUp7" />
+                        </div>
+                        <div class="answer-box" id="answerBox7">
+                            <div class="answer">
+                                <p>
+                                    A: If you cannot place an order on our website
+                                    www.gymbeam.ro, please contact us by phone at
+                                    number <b>0040 316 302 838</b> or send us a
+                                    e-mail at <b>info@gymbeam.ro</b> and we can offer you
+                                    support in its placement.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category" data-aos="zoom-in-right" data-aos-once=true>
+                        <h3>Delivery and payment of products</h3>
+                    </div>
+                    <div class="col-md-12 col-xs-12" data-aos="zoom-out-left" data-aos-once=true>
+                        <div class="question-box">
+                            <div class="question">
+                                <p class="symbol">Q:</p>
+                                <p class="q">When will I receive the package?</p>
+                            </div>
+                            <img src="../images/arrow-down.png" alt="Arrow pointing down" class="arrow-Down"
+                                id="arrowDown8" />
+                            <img src="../images/arrow-up.png" alt="Arrow pointing up" class="arrow-Up" id="arrowUp8" />
+                        </div>
+                        <div class="answer-box" id="answerBox8">
+                            <div class="answer">
+                                <p>
+                                    A: Parcels are delivered within approximately 24 hours from
+                                    placing the order. Contracted courier companies
+                                    guarantees the delivery of the order in the shortest possible time. In the
+                                    during public holidays or during the campaigns of
+                                    discounts, we cannot guarantee parcel delivery within 24 hours.
+                                    During the aforementioned periods, the delivery of parcels
+                                    it depends on the schedule of the courier companies and the capacity
+                                    their delivery.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xs-12" data-aos="zoom-out-right" data-aos-once=true>
+                        <div class="question-box">
+                            <div class="question">
+                                <p class="symbol">Q:</p>
+                                <p class="q">Do you also deliver orders on weekends?</p>
+                            </div>
+                            <img src="../images/arrow-down.png" alt="Arrow pointing down" class="arrow-Down"
+                                id="arrowDown9" />
+                            <img src="../images/arrow-up.png" alt="Arrow pointing up" class="arrow-Up" id="arrowUp9" />
+                        </div>
+                        <div class="answer-box" id="answerBox9">
+                            <div class="answer">
+                                <p>A: Unfortunately, this service is not available.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xs-12" data-aos="zoom-out-left" data-aos-once=true>
+                        <div class="question-box">
+                            <div class="question">
+                                <p class="symbol">Q:</p>
+                                <p class="q">Where can I track the status of my package?</p>
+                            </div>
+                            <img src="../images/arrow-down.png" alt="Arrow pointing down" class="arrow-Down"
+                                id="arrowDown10" />
+                            <img src="../images/arrow-up.png" alt="Arrow pointing up" class="arrow-Up" id="arrowUp10" />
+                        </div>
+                        <div class="answer-box" id="answerBox10">
+                            <div class="answer">
+                                <p>
+                                    A: After shipping the package from our warehouse, you will
+                                    receive an informative e-mail with the shipment number - AWB.
+                                    Afterwards, you can track the order status directly on the website
+                                    the selected courier company.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xs-12" data-aos="zoom-out-right" data-aos-once=true>
+                        <div class="question-box">
+                            <div class="question">
+                                <p class="symbol">Q:</p>
+                                <p class="q">
+                                    How to use the voucher / discount coupon?
+                                </p>
+                            </div>
+                            <img src="../images/arrow-down.png" alt="Arrow pointing down" class="arrow-Down"
+                                id="arrowDown11" />
+                            <img src="../images/arrow-up.png" alt="Arrow pointing up" class="arrow-Up" id="arrowUp11" />
+                        </div>
+                        <div class="answer-box" id="answerBox11">
+                            <div class="answer">
+                                <p>
+                                    A: The coupon or gift voucher can be used in the first
+                                    order step. At the bottom, above the button
+                                    "Complete the order by choosing the payment method", there is a
+                                    box where you can enter the coupon number of
+                                    reduction. Don't forget to confirm by pressing the Apply button
+                                    discount code (arrow). The system will deduce the value
+                                    gift voucher from your order.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xs-12" data-aos="zoom-out-left" data-aos-once=true>
+                        <div class="question-box">
+                            <div class="question">
+                                <p class="symbol">Q:</p>
+                                <p class="q">What are the payment options?</p>
+                            </div>
+                            <img src="../images/arrow-down.png" alt="Arrow pointing down" class="arrow-Down"
+                                id="arrowDown12" />
+                            <img src="../images/arrow-up.png" alt="Arrow pointing up" class="arrow-Up" id="arrowUp12" />
+                        </div>
+                        <div class="answer-box" id="answerBox12">
+                            <div class="answer">
+                                <p>
+                                    A: <b>Payment on delivery</b> – The parcel can be paid in cash
+                                    to the courier, at the time of its collection at the address
+                                    mentioned by you. Administrative fee for
+                                    payment on delivery is 5 RON.<br /><br />
+
+                                    <b>Online payment with bank card</b> - You can pay the order,
+                                    using the bank card. It is an affordable and safe method
+                                    of payment. We currently accept online card payments
+                                    VISA, VISA Electron, Maestro and MasterCard banking.<br /><br />
+
+                                    <b>Bank transfer</b> – You can pay for products and
+                                    through online banking services. At the address of
+                                    e-mail you will receive all the necessary information to
+                                    make the payment by bank. You can make the payment within
+                                    3 working days from placing the order. Don't forget to
+                                    fill all required data otherwise the process
+                                    can be extended. Products will be sent only after
+                                    the payment has been registered in our account.<br /><br />
+
+                                    <b>GymBeam gift voucher</b> – the gift voucher for
+                                    shopping can be applied to the entire range of products
+                                    present on the website www.gymbeam.ro. Enter the code
+                                    gift voucher in the "Apply discount code" box,
+                                    which appears in the first step of placing the order. The value
+                                    of the gift voucher will be deducted from the order total. In the
+                                    within an order you can only use one voucher.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 pt-4 item text">
+                    <h3 class="footer-category">GYMBEAM S.R.O.</h3>
+                    <p>
+                        We are <span>GymBeam</span>, a brand of progressive healthy foods.
+                    </p>
+                    <!-- Social Media Icons -->
+                    <div class="social-media">
+                        <div class="circle-facebook">
+                            <a href="https://www.facebook.com/GymBeamRo">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="circle-instagram">
+                            <a href="https://www.instagram.com/gymbeamro/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="circle-youtube">
+                            <a href="https://www.youtube.com/c/GymBeamro">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="circle-twitter">
+                            <a href="https://mobile.twitter.com/gymbeamteam">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="circle-tiktok">
+                            <a href="https://www.tiktok.com/@gymbeam.com">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 pt-4 item hide-on-mobile">
+                    <h3 class="footer-category">Products</h3>
+                    <div class="separator"></div>
+                    <ul>
+                        <li><a href="#">Nutrition</a></li>
+                        <li><a href="#">Clothing and accessories</a></li>
+                        <li><a href="#">Groups of allergens</a></li>
+                        <li><a href="#">Articles and tips</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 pt-4 item hide-on-mobile">
+                    <h3 class="footer-category">Loyalty and rewards</h3>
+                    <div class="separator"></div>
+                    <ul>
+                        <li><a href="#">Referral program</a></li>
+                        <li><a href="#">Offers for new customers</a></li>
+                        <li><a href="#">Black friday</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 pt-4 item hide-on-mobile">
+                    <h3 class="footer-category">Customer support</h3>
+                    <div class="separator"></div>
+                    <ul>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Return policy</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <p class="company">© 2014 - 2022 GymBeam</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../scripts/menu.js"></script>
+    <script src="../scripts/about-us.js"></script>
+    <script>
+        AOS.init({
+            offset: 100, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 1000, // values from 0 to 3000, with step 50ms
+        });
+    </script>
+</body>
+
+</html>
